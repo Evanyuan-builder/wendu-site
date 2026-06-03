@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>文渡 隐私政策</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+    line-height: 1.75;
+    color: #1c1c1e;
+    background: #f5f6f8;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+  .brand {
+    display: flex; align-items: center; gap: 12px; margin-bottom: 28px;
+  }
+  .mark {
+    width: 44px; height: 44px; border-radius: 11px; flex: none;
+    background: #1f3a5f; position: relative;
+  }
+  .mark::before {
+    content: ""; position: absolute; inset: 11px 13px; background: #fff;
+    border-radius: 3px 3px 3px 3px;
+    clip-path: polygon(0 0, 72% 0, 100% 22%, 100% 100%, 0 100%);
+  }
+  .brand h1 { font-size: 20px; margin: 0; font-weight: 700; }
+  .brand .sub { font-size: 13px; color: #8a8f98; margin-top: 2px; }
+  .card {
+    background: #fff; border-radius: 16px; padding: 26px 24px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+  h2 { font-size: 16px; margin: 26px 0 8px; }
+  h2:first-of-type { margin-top: 0; }
+  p, li { font-size: 15px; color: #3a3f47; }
+  ul { padding-left: 1.2em; }
+  li { margin: 6px 0; }
+  .meta { margin-top: 28px; font-size: 13px; color: #8a8f98; }
+  a { color: #0a84ff; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e5e5ea; background: #000; }
+    .card { background: #1c1c1e; box-shadow: none; }
+    p, li { color: #c7c7cc; }
+    .brand h1 { color: #fff; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand">
+    <div class="mark"></div>
+    <div>
+      <h1>文渡 隐私政策</h1>
+      <div class="sub">WenDu · Markdown / HTML 阅读器</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <p>文渡是一款本地 Markdown / HTML 阅读器。我们把隐私做得很简单：<strong>什么都不收集。</strong></p>
+
+    <h2>我们不收集任何数据</h2>
+    <ul>
+      <li>文渡不收集、不上传、不分享你的任何个人信息或文档内容。</li>
+      <li>你打开的文档仅存储在你的设备本地（应用沙盒内），不会传输到任何服务器。</li>
+      <li>文渡不联网，不含第三方分析、广告或追踪 SDK。</li>
+    </ul>
+
+    <h2>关于内购</h2>
+    <ul>
+      <li>「文渡 Pro」内购由 Apple 的 StoreKit 处理，文渡不接触、不存储你的任何支付信息。</li>
+    </ul>
+
+    <h2>权限</h2>
+    <ul>
+      <li>文渡仅在你主动用它打开某个文件时读取该文件，用于显示内容。不会在后台访问你的文件。</li>
+    </ul>
+
+    <h2>政策变更</h2>
+    <p>若本政策有更新，我们会在此页面更新内容与生效日期。</p>
+
+    <div class="meta">
+      生效日期：2026-06-03<br>
+      联系方式：<a href="mailto:你的邮箱@example.com">你的邮箱@example.com</a>（上线前替换为真实邮箱）
+    </div>
+  </div>
+</div>
+</body>
+</html>
